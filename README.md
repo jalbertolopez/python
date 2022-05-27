@@ -55,6 +55,34 @@ cadena.isalnum()
 cadena.split()		
 cadena.split(",")		
 ```
+## Listas
+
+Dado que:
+lista = [1,2,3,4,5,6]
+>>>lista[1]
+2
+>>>lista.append(7)
+[1,2,3,4,5,6,7]
+>>>del lista[6]
+[1,2,3,4,5,6]
+>>>lista[3:] 
+[4,5,6]
+>>>lista[1:3]
+[2,3]
+>>>lista[1:6:2]
+[2,4,6]
+>>>lista[::-1]
+[6,5,4,3,2,1]
+>>>list('string')
+['s','t','r','i','n','g']
+>>> cadena = ''.join(['s','t','r','i','n','g']))
+'string'
+>>>sum([4,3,2,1])
+10
+Aplica la funcion a cada elemento de la lista
+>>>map(str,[5,6,4])  
+['6','5','4']
+
 ## Excepciones
 
 Lanzar un error similar a throw de Java:
